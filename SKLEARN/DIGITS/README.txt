@@ -1,4 +1,4 @@
-ptical recognition of handwritten digits dataset
+Optical recognition of handwritten digits dataset
 --------------------------------------------------
 
 **Data Set Characteristics:**
