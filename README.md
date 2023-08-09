@@ -8,3 +8,5 @@ logic behind the coding
 Follow the folders in below order:
  - SKLEARN
  - DAATA GENERATION
+ - INTERESTING DISTRIBUTIONS
+ - DATA PREPARATION
