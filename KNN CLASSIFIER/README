@@ -1,0 +1,61 @@
+The principle behind nearest neighbor classification consists in finding a predefined number, i.e. the 'k' - of
+training samples closest in distance to a new sample, which has to be classified. The label of the new sample
+will be defined from these neighbors. k-nearest neighbor classifiers have a fixed user defined constant for the
+number of neighbors which have to be determined. There are also radius-based neighbor learning algorithms,
+which have a varying number of neighbors based on the local density of points, all the samples inside of a
+fixed radius. The distance can, in general, be any metric measure: standard Euclidean distance is the most
+common choice. Neighbors-based methods are known as non-generalizing machine learning methods, since
+they simply "remember" all of its training data. Classification can be computed by a majority vote of the
+nearest neighbors of the unknown sample.
+
+The k-NN algorithm is among the simplest of all machine learning algorithms, but despite its simplicity, it has
+been quite successful in a large number of classification and regression problems, for example character
+recognition or image analysis.
+
+Now let's get a little bit more mathematically:
+As explained in the chapter Data Preparation, we need labeled learning and test data. In contrast to other
+classifiers, however, the pure nearest-neighbor classifiers do not do any learning, but the so-called learning set
+LS is a basic component of the classifier. The k-Nearest-Neighbor Classifier (kNN) works directly on the
+learned samples, instead of creating rules compared to other classification methods.
+
+Nearest Neighbor Algorithm:
+Given a set of categories C = {c1, c2, . . . cm}, also called classes, e.g. {"male", "female"}. There is also a
+learnset LS consisting of labelled instances:
+        LS = {(o1, co1), (o2, co2),⋯(on, con)}
+
+As it makes no sense to have less lebelled items than categories, we can postulate that
+n > m and in most cases even n⋙m (n much greater than m.)
+
+The task of classification consists in assigning a category or class c to an arbitrary instance o.
+
+For this, we have to differentiate between two cases:
+    • Case 1:
+        The instance o is an element of LS, i.e. there is a tupel (o, c) ∈ LS
+        In this case, we will use the class c as the classification result.
+    • Case 2:
+        We assume now that o is not in LS, or to be precise:
+        ∀c ∈ C, (o, c) ∉ LS
+
+o is compared with all the instances of LS. A distance metric d is used for the comparisons.
+We determine the k closest neighbors of o, i.e. the items with the smallest distances.
+k is a user defined constant and a positive integer, which is usually small.
+The number k is typically chosen as the square root of LS, the total number of points in the training data set.
+To determine the k nearest neighbors we reorder LS in the following way:
+(oi1, coi1), (oi2, coi2),⋯(oin, coin)
+
+so that d(oij, o) ≤ d(oij + 1, o) is true for all 1 ≤ j ≤ n − 1
+
+The set of k-nearest neighbors Nk consists of the first k elements of this ordering, i.e.
+Nk = {(oi1, coi1), (oi2, coi2),⋯(oik, coik)}
+
+There is no general way to define an optimal value for 'k'. This value depends on the data. As a general rule
+we can say that increasing 'k' reduces the noise but on the other hand makes the boundaries less distinct.
+
+The algorithm for the k-nearest neighbor classifier is among the simplest of all machine learning algorithms.
+k-NN is a type of instance-based learning, or lazy learning. In machine learning, lazy learning is understood
+to be a learning method in which generalization of the training data is delayed until a query is made to the
+system. On the other hand, we have eager learning, where the system usually generalizes the training data
+before receiving queries. In other words: The function is only approximated locally and all the computations
+are performed, when the actual classification is being performed.
+
+
