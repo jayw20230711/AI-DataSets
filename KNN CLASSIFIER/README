@@ -23,14 +23,14 @@ Given a set of categories C = {c1, c2, . . . cm}, also called classes, e.g. {"ma
 learnset LS consisting of labelled instances:
         LS = {(o1, co1), (o2, co2),⋯(on, con)}
 
-As it makes no sense to have less lebelled items than categories, we can postulate that
+As it makes no sense to have less labeled items than categories, we can postulate that
 n > m and in most cases even n⋙m (n much greater than m.)
 
 The task of classification consists in assigning a category or class c to an arbitrary instance o.
 
 For this, we have to differentiate between two cases:
     • Case 1:
-        The instance o is an element of LS, i.e. there is a tupel (o, c) ∈ LS
+        The instance o is an element of LS, i.e. there is a tuple (o, c) ∈ LS
         In this case, we will use the class c as the classification result.
     • Case 2:
         We assume now that o is not in LS, or to be precise:
@@ -57,5 +57,3 @@ to be a learning method in which generalization of the training data is delayed 
 system. On the other hand, we have eager learning, where the system usually generalizes the training data
 before receiving queries. In other words: The function is only approximated locally and all the computations
 are performed, when the actual classification is being performed.
-
-
