@@ -57,3 +57,34 @@ to be a learning method in which generalization of the training data is delayed 
 system. On the other hand, we have eager learning, where the system usually generalizes the training data
 before receiving queries. In other words: The function is only approximated locally and all the computations
 are performed, when the actual classification is being performed.
+
+
+DISTANCE METRICS
+We have already mentioned in detail, we calculate the distances between the points of the sample and the
+object to be classified. To calculate these distances we need a distance function.
+
+In n-dimensional vector rooms, one usually uses one of the following three distance metrics:
+
+In n-dimensional vector rooms, one usually uses one of the following three distance metrics:
+• Euclidean Distance
+The Euclidean distance between two points x and y in either the plane or 3-dimensional
+space measures the length of a line segment connecting these two points. It can be calculated
+from the Cartesian coordinates of the points using the Pythagorean theorem, therefore it is also
+occasionally being called the Pythagorean distance. The general formula is
+
+• Euclidean Distance
+    The Euclidean distance between two points x and y in either the plane or 3-dimensional
+    space measures the length of a line segment connecting these two points. It can be calculated
+    from the Cartesian coordinates of the points using the Pythagorean theorem, therefore it is also
+    occasionally being called the Pythagorean distance. The general formula refer tot he jpg file.
+
+    refer in the current folder : distance metrics - 1.jpg
+
+ • Manhattan Distance
+    It is defined as the sum of the absolute values of the differences between the coordinates of x
+    and y:
+
+ • Minkowski Distance
+    The Minkowski distance generalizes the Euclidean and the Manhatten distance in one distance
+    metric. If we set the parameter p in the following formula to 1 we get the manhattan distance
+    an using the value 2 gives us the euclidean distance:
