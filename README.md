@@ -7,7 +7,7 @@ logic behind the coding
 
 Follow the folders in below order:
  - SKLEARN
- - DAATA GENERATION
+ - DATA GENERATION
  - INTERESTING DISTRIBUTIONS
  - DATA PREPARATION
  - KNN CLASSIFIER
