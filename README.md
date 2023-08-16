@@ -12,4 +12,5 @@ Follow the folders in below order:
  - DATA PREPARATION
  - KNN CLASSIFIER
  - NEURAL NETWORKS
+          - SIMPLE NN
  - 
