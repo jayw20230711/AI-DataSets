@@ -11,3 +11,5 @@ Follow the folders in below order:
  - INTERESTING DISTRIBUTIONS
  - DATA PREPARATION
  - KNN CLASSIFIER
+ - NEURAL NETWORKS
+ - 
