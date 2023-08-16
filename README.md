@@ -13,4 +13,5 @@ Follow the folders in below order:
  - KNN CLASSIFIER
  - NEURAL NETWORKS
           - SIMPLE NN
+          -
  - 
