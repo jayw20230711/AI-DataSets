@@ -13,5 +13,6 @@ Follow the folders in below order:
  - KNN CLASSIFIER
  - NEURAL NETWORKS
      - SIMPLE NN
-     -
+     - LINEARLY SEPERABLE DATA SETS
+     - PERCEPTRON CLASS FROM SKLEARN
    
