@@ -18,4 +18,5 @@ Follow the folders in below order:
      - NN STRUCTURE WEIGHTS AND MATRICES
      - RUNNING A NEURAL NETWORK WITH PYTHON
      - Backpropagation in Neural networks
+     - Training A Neural Network with Python
    
