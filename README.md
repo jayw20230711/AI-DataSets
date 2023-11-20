@@ -17,4 +17,5 @@ Follow the folders in below order:
      - PERCEPTRON CLASS FROM SKLEARN
      - NN STRUCTURE WEIGHTS AND MATRICES
      - RUNNING A NEURAL NETWORK WITH PYTHON
+     - Backpropagation in Neural networks
    
