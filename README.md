@@ -7,6 +7,10 @@ logic behind the coding
 
 Follow the folders in below order:
  - SKLEARN
+     - IRIS
+     - DIGITS
+     - WINE
+     - OLIVETTI
  - DATA GENERATION
  - INTERESTING DISTRIBUTIONS
  - DATA PREPARATION
@@ -20,3 +24,28 @@ Follow the folders in below order:
      - Backpropagation in Neural networks
      - Training A Neural Network with Python
    
+To be added:
+     - Softmax as Activation Function
+     - Confusion Matrix
+     - NeuralNetwork
+     - Multiple Runs
+     - With Bias Node
+     - Network with multi hidden layers
+     - Network with multiple hidden layeres and epochs
+     - Dropout Neural Networks
+     - Neural networks with SCIKIT / SKLEARN
+     - A neural network for the DIGITS dataset
+     - NAIVE BAYES CLASSIFIER
+     - NAIVE BAYES CLASSIFIER WITH SCIKIT
+     - TEXT CATEGORIZATION AND CLASSIFICATION / TEXT CLASSIFICATION IN PYTHON
+     - ENCODING TEXT FOR MACHINE LEARNING
+     - NATURAL LANGUAGE PROCESSING: CLASSIFICATION
+     - REGRESSION TREES
+     - THE MATHS BEHIND REGRESSION TREES
+     - REGRESSION DECISION TREES FROM SCRATCH IN PYTHON
+     - REGRESSION TREES IN SKLEARN
+
+     
+     
+     
+     
